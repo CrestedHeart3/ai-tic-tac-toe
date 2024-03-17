@@ -80,6 +80,7 @@ document.addEventListener('DOMContentLoaded', function () {
                 if (score > bestScore) {
                     bestScore = score;
                     aiMove = index;
+                    console.log('Move:' + JSON.stringify(bestScore))
                 }
             }
 
